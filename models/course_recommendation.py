@@ -5,7 +5,7 @@ class CourseRecommendation:
         self._reason = reason
 
     def display_info(self):
-        print("Course", self._course)
+        print("Course", self._course._title)
         print("Score", self._score)
         print("Reason", self._reason)
         

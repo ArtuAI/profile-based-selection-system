@@ -1,6 +1,8 @@
 from models.skill import Skill
 from models.learning_profile import LearningProfile
 from repository.course_repository import CourseRepository
+from engine.basic_rule_strategy import BasicRuleStrategy
+from engine.recommendation_engine import RecommendationEngine
 
 print("Welcome to the Course Recommendation System")
 print()
@@ -19,10 +21,16 @@ print("=== Your Learning Profile ===")
 profile.display_info()
 
 print()
-print("=== Available Courses ===")
 repo = CourseRepository("data/items.json")
 courses = repo.load_courses()
 
-for course in courses:
-    course.display_info()
+strategy = BasicRuleStrategy()
+engine = RecommendationEngine(strategy)
+
+recommendations = engine.generate(profile, courses)
+
+print()
+print("=== Recommended Courses ===")
+for recommendation in recommendations:
+    recommendation.display_info()
     print()
