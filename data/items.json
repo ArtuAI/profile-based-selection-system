@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Python Basics",
+    "difficulty": "beginner",
+    "duration_hours": 10,
+    "price": 20,
+    "skill_name": "Python"
+  },
+  {
+    "title": "Git Fundamentals",
+    "difficulty": "beginner",
+    "duration_hours": 6,
+    "price": 15,
+    "skill_name": "Git"
+  },
+  {
+    "title": "Machine Learning Intro",
+    "difficulty": "intermediate",
+    "duration_hours": 25,
+    "price": 50,
+    "skill_name": "Machine Learning"
+  }
+]
