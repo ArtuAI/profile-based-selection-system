@@ -1,11 +1,11 @@
 {
-    "target_role": "Data scientist",
+    "target_role": "AI engineer",
     "budget_level": "low",
-    "weekly_hours": 20,
+    "weekly_hours": 22,
     "current_skills": [
         {
-            "name": "python programming",
-            "level": "10"
+            "name": "Data management",
+            "level": "Beginner"
         }
     ]
 }

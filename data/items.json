@@ -7,6 +7,20 @@
     "skill_name": "Python"
   },
   {
+    "title": "Intermediate Python Programming",
+    "difficulty": "intermediate",
+    "duration_hours": 18,
+    "price": 35,
+    "skill_name": "Python"
+  },
+  {
+    "title": "Object-Oriented Programming with Python",
+    "difficulty": "intermediate",
+    "duration_hours": 16,
+    "price": 30,
+    "skill_name": "OOP"
+  },
+  {
     "title": "Git Fundamentals",
     "difficulty": "beginner",
     "duration_hours": 6,
@@ -14,10 +28,185 @@
     "skill_name": "Git"
   },
   {
+    "title": "Algorithms and Problem Solving",
+    "difficulty": "intermediate",
+    "duration_hours": 20,
+    "price": 40,
+    "skill_name": "Algorithms"
+  },
+  {
+    "title": "Data Analysis with Excel",
+    "difficulty": "beginner",
+    "duration_hours": 8,
+    "price": 12,
+    "skill_name": "Excel"
+  },
+  {
+    "title": "SQL for Data Analysis",
+    "difficulty": "beginner",
+    "duration_hours": 12,
+    "price": 20,
+    "skill_name": "SQL"
+  },
+  {
+    "title": "Statistics Fundamentals",
+    "difficulty": "beginner",
+    "duration_hours": 14,
+    "price": 18,
+    "skill_name": "Statistics"
+  },
+  {
     "title": "Machine Learning Intro",
     "difficulty": "intermediate",
     "duration_hours": 25,
     "price": 50,
     "skill_name": "Machine Learning"
+  },
+  {
+    "title": "Deep Learning Basics",
+    "difficulty": "advanced",
+    "duration_hours": 30,
+    "price": 70,
+    "skill_name": "Deep Learning"
+  },
+  {
+    "title": "Data Visualization with Python",
+    "difficulty": "intermediate",
+    "duration_hours": 15,
+    "price": 28,
+    "skill_name": "Data Visualization"
+  },
+  {
+    "title": "Pandas and NumPy Essentials",
+    "difficulty": "intermediate",
+    "duration_hours": 16,
+    "price": 32,
+    "skill_name": "Data Analysis"
+  },
+  {
+    "title": "HTML and CSS Basics",
+    "difficulty": "beginner",
+    "duration_hours": 10,
+    "price": 15,
+    "skill_name": "HTML/CSS"
+  },
+  {
+    "title": "JavaScript Essentials",
+    "difficulty": "beginner",
+    "duration_hours": 14,
+    "price": 22,
+    "skill_name": "JavaScript"
+  },
+  {
+    "title": "Frontend Development Intro",
+    "difficulty": "intermediate",
+    "duration_hours": 20,
+    "price": 38,
+    "skill_name": "Frontend Development"
+  },
+  {
+    "title": "Backend Development with Python",
+    "difficulty": "intermediate",
+    "duration_hours": 22,
+    "price": 45,
+    "skill_name": "Backend Development"
+  },
+  {
+    "title": "Web APIs and REST Basics",
+    "difficulty": "intermediate",
+    "duration_hours": 12,
+    "price": 25,
+    "skill_name": "APIs"
+  },
+  {
+    "title": "Database Design Fundamentals",
+    "difficulty": "intermediate",
+    "duration_hours": 15,
+    "price": 27,
+    "skill_name": "Databases"
+  },
+  {
+    "title": "Linux Basics",
+    "difficulty": "beginner",
+    "duration_hours": 9,
+    "price": 14,
+    "skill_name": "Linux"
+  },
+  {
+    "title": "Cloud Computing Intro",
+    "difficulty": "beginner",
+    "duration_hours": 13,
+    "price": 24,
+    "skill_name": "Cloud Computing"
+  },
+  {
+    "title": "Docker Essentials",
+    "difficulty": "intermediate",
+    "duration_hours": 11,
+    "price": 26,
+    "skill_name": "Docker"
+  },
+  {
+    "title": "DevOps Foundations",
+    "difficulty": "intermediate",
+    "duration_hours": 18,
+    "price": 42,
+    "skill_name": "DevOps"
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "difficulty": "beginner",
+    "duration_hours": 12,
+    "price": 20,
+    "skill_name": "Cybersecurity"
+  },
+  {
+    "title": "Network Security Basics",
+    "difficulty": "intermediate",
+    "duration_hours": 17,
+    "price": 34,
+    "skill_name": "Network Security"
+  },
+  {
+    "title": "Ethical Hacking Intro",
+    "difficulty": "intermediate",
+    "duration_hours": 20,
+    "price": 48,
+    "skill_name": "Ethical Hacking"
+  },
+  {
+    "title": "UI Design Basics",
+    "difficulty": "beginner",
+    "duration_hours": 10,
+    "price": 16,
+    "skill_name": "UI Design"
+  },
+  {
+    "title": "UX Research Intro",
+    "difficulty": "beginner",
+    "duration_hours": 9,
+    "price": 18,
+    "skill_name": "UX Research"
+  },
+  {
+    "title": "Project Management Fundamentals",
+    "difficulty": "beginner",
+    "duration_hours": 10,
+    "price": 19,
+    "skill_name": "Project Management"
+  },
+  {
+    "title": "Business Analysis Basics",
+    "difficulty": "beginner",
+    "duration_hours": 11,
+    "price": 21,
+    "skill_name": "Business Analysis"
+  },
+  {
+    "title": "Technical Writing Essentials",
+    "difficulty": "beginner",
+    "duration_hours": 7,
+    "price": 12,
+    "skill_name": "Technical Writing"
   }
 ]

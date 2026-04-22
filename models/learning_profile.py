@@ -9,7 +9,10 @@ class LearningProfile:
         print("Target role:", self._target_role)
         print("Budget level:", self._budget_level)
         print("Weekly hours:", self._weekly_hours)
-        print("Current skills:", self._current_skills)
+        print("Current skills:")
+
+        for skill in self._current_skills:
+            skill.display_info()
 
     def add_skill(self, skill):
         self._current_skills.append(skill)

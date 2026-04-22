@@ -22,6 +22,12 @@ profile = LearningProfile(target_role, budget_level, weekly_hours, [skill])
 profile_repo = ProfileRepository("data/profiles.json")
 profile_repo.save_profile(profile)
 
+loaded_profile = profile_repo.load_profile()
+
+print()
+print("=== Loaded Profile ===")
+loaded_profile.display_info()
+
 print()
 print("=== Your Learning Profile ===")
 profile.display_info()
