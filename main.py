@@ -3,6 +3,9 @@ from models.learning_profile import LearningProfile
 from repository.course_repository import CourseRepository
 from engine.basic_rule_strategy import BasicRuleStrategy
 from engine.recommendation_engine import RecommendationEngine
+from repository.profile_repository import ProfileRepository
+
+
 
 print("Welcome to the Course Recommendation System")
 print()
@@ -15,6 +18,9 @@ skill_level = input("Enter your level for this skill: ")
 
 skill = Skill(skill_name, skill_level)
 profile = LearningProfile(target_role, budget_level, weekly_hours, [skill])
+
+profile_repo = ProfileRepository("data/profiles.json")
+profile_repo.save_profile(profile)
 
 print()
 print("=== Your Learning Profile ===")
