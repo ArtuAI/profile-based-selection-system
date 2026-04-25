@@ -1,10 +1,10 @@
 {
-    "target_role": "data analyst",
-    "budget_level": "medium",
+    "target_role": "project manager",
+    "budget_level": "low",
     "weekly_hours": 20,
     "current_skills": [
         {
-            "name": "python",
+            "name": "technical writting",
             "level": "beginner"
         }
     ]

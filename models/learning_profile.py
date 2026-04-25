@@ -20,7 +20,7 @@ class LearningProfile:
     
     def has_skill(self, skill_name):
         for skill in self._current_skills:
-            if skill._name == skill_name:
+            if skill._name.lower() == skill_name.lower():
                 return True
         return False
             

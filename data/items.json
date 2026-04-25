@@ -209,4 +209,61 @@
     "price": 12,
     "skill_name": "Technical Writing"
   }
+  ,
+{
+  "title": "Agile Project Management",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 35,
+  "skill_name": "Project Management"
+},
+{
+  "title": "Scrum Master Basics",
+  "difficulty": "beginner",
+  "duration_hours": 9,
+  "price": 18,
+  "skill_name": "Project Management"
+},
+{
+  "title": "Risk Management for Projects",
+  "difficulty": "intermediate",
+  "duration_hours": 14,
+  "price": 28,
+  "skill_name": "Project Management"
+},
+{
+  "title": "Stakeholder Communication",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 16,
+  "skill_name": "Business Analysis"
+},
+{
+  "title": "Requirements Gathering Basics",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 17,
+  "skill_name": "Business Analysis"
+},
+{
+  "title": "Business Process Modelling",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 32,
+  "skill_name": "Business Analysis"
+},
+{
+  "title": "Professional Technical Writing",
+  "difficulty": "intermediate",
+  "duration_hours": 13,
+  "price": 24,
+  "skill_name": "Technical Writing"
+},
+{
+  "title": "Documentation for Software Teams",
+  "difficulty": "beginner",
+  "duration_hours": 7,
+  "price": 14,
+  "skill_name": "Technical Writing"
+}
 ]

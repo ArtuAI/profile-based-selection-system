@@ -46,7 +46,6 @@ print()
 repo = CourseRepository("data/items.json")
 courses = repo.load_courses()
 
-strategy = BasicRuleStrategy()
 engine = RecommendationEngine(strategy)
 
 recommendations = engine.generate(profile, courses)
