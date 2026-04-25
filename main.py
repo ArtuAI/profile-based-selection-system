@@ -4,11 +4,20 @@ from repository.course_repository import CourseRepository
 from engine.basic_rule_strategy import BasicRuleStrategy
 from engine.recommendation_engine import RecommendationEngine
 from repository.profile_repository import ProfileRepository
-from engine.fast_track_strategy import FastTrackStrategy
-
+from engine.skill_gap_strategy import SkillGapStrategy
 
 
 print("Welcome to the Course Recommendation System")
+print("Choose recommendation strategy:")
+print("1 - Basic rule strategy")
+print("2 - Skill gap strategy")
+
+strategy_choice = input("Enter your choice: ")
+
+if strategy_choice == "2":
+    strategy = SkillGapStrategy()
+else:
+    strategy = BasicRuleStrategy()
 print()
 
 target_role = input("Enter your target role: ")
