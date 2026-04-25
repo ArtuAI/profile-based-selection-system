@@ -4,6 +4,7 @@ from repository.course_repository import CourseRepository
 from engine.basic_rule_strategy import BasicRuleStrategy
 from engine.recommendation_engine import RecommendationEngine
 from repository.profile_repository import ProfileRepository
+from engine.fast_track_strategy import FastTrackStrategy
 
 
 

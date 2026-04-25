@@ -1,10 +1,10 @@
 {
-    "target_role": "Ethical hacker",
+    "target_role": "data analyst",
     "budget_level": "medium",
     "weekly_hours": 20,
     "current_skills": [
         {
-            "name": "beginner",
+            "name": "python",
             "level": "beginner"
         }
     ]

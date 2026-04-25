@@ -1,4 +1,3 @@
-# dummy
 from engine.recommendation_strategy import RecommendationStrategy
 from models.course_recommendation import CourseRecommendation
 
@@ -7,19 +6,47 @@ class BasicRuleStrategy(RecommendationStrategy):
     def generate_recommendations(self, profile, courses):
         recommendations = []
 
+        role_to_skills = {
+            "data scientist": ["Python", "Statistics", "Machine Learning", "SQL", "Data Analysis"],
+            "data analyst": ["Excel", "SQL", "Statistics", "Data Visualization", "Data Analysis"],
+            "web developer": ["HTML/CSS", "JavaScript", "Frontend Development", "Backend Development", "APIs"],
+            "python developer": ["Python", "OOP", "Git", "Algorithms"],
+            "cybersecurity": ["Cybersecurity", "Network Security", "Linux", "Ethical Hacking"],
+            "cyber security": ["Cybersecurity", "Network Security", "Linux", "Ethical Hacking"],
+            "devops": ["Linux", "Docker", "Cloud Computing", "DevOps"],
+            "ui designer": ["UI Design", "UX Research"],
+            "ux designer": ["UI Design", "UX Research"],
+            "project manager": ["Project Management", "Business Analysis", "Technical Writing"]
+        }
+
+        target_role = profile._target_role.lower()
+        wanted_skills = []
+
+        for role in role_to_skills:
+            if role in target_role:
+                wanted_skills = role_to_skills[role]
+
+        # If no role was found, try to use the text itself as skill keyword
+        if len(wanted_skills) == 0:
+            wanted_skills.append(profile._target_role)
+
         for course in courses:
             score = 0
             reasons = []
+            course_skill = course._skill_name.lower()
+            is_related = False
 
-            # 1. Skill taisyklė
-            if not profile.has_skill(course._skill_name):
-                score = score + 40
-                reasons.append("Teaches a new skill")
-            else:
-                score = score + 10
-                reasons.append("Matches an existing skill")
+            for skill in wanted_skills:
+                skill_lower = skill.lower()
 
-            # 2. Biudžeto taisyklė
+                if skill_lower in course_skill or course_skill in skill_lower:
+                    is_related = True
+                    score = score + 50
+                    reasons.append("Related to your target role")
+
+            if is_related == False:
+                continue
+
             if profile._budget_level == "low":
                 if course._price <= 20:
                     score = score + 30
@@ -27,6 +54,7 @@ class BasicRuleStrategy(RecommendationStrategy):
                 elif course._price <= 50:
                     score = score + 10
                     reasons.append("Slightly above low budget")
+
             elif profile._budget_level == "medium":
                 if course._price <= 50:
                     score = score + 20
@@ -34,11 +62,11 @@ class BasicRuleStrategy(RecommendationStrategy):
                 else:
                     score = score + 5
                     reasons.append("More expensive than medium budget")
+
             elif profile._budget_level == "high":
                 score = score + 20
                 reasons.append("Budget is not a problem")
 
-            # 3. Laiko taisyklė
             if profile._weekly_hours <= 5:
                 if course._duration_hours <= 10:
                     score = score + 20
@@ -51,7 +79,6 @@ class BasicRuleStrategy(RecommendationStrategy):
                     score = score + 10
                     reasons.append("Duration is acceptable")
 
-            # 4. Sudėtingumo taisyklė
             if course._difficulty == "beginner":
                 score = score + 10
                 reasons.append("Beginner friendly")
@@ -63,4 +90,4 @@ class BasicRuleStrategy(RecommendationStrategy):
 
         recommendations.sort(key=lambda recommendation: recommendation._score, reverse=True)
 
-        return recommendations
+        return recommendations[:5]
