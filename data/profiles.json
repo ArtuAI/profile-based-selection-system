@@ -1,10 +1,10 @@
 {
-    "target_role": "project management",
+    "target_role": "data scientist",
     "budget_level": "low",
-    "weekly_hours": 10,
+    "weekly_hours": 12,
     "current_skills": [
         {
-            "name": "technical writting",
+            "name": "python programming",
             "level": "beginner"
         }
     ]

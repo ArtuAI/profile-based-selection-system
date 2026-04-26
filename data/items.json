@@ -265,5 +265,180 @@
   "duration_hours": 7,
   "price": 14,
   "skill_name": "Technical Writing"
+},
+{
+  "title": "Power BI Dashboard Basics",
+  "difficulty": "beginner",
+  "duration_hours": 9,
+  "price": 18,
+  "skill_name": "Power BI"
+},
+{
+  "title": "Tableau for Data Visualization",
+  "difficulty": "beginner",
+  "duration_hours": 11,
+  "price": 22,
+  "skill_name": "Tableau"
+},
+{
+  "title": "Data Cleaning with Python",
+  "difficulty": "intermediate",
+  "duration_hours": 13,
+  "price": 26,
+  "skill_name": "Data Cleaning"
+},
+{
+  "title": "Model Evaluation Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 12,
+  "price": 30,
+  "skill_name": "Model Evaluation"
+},
+{
+  "title": "Natural Language Processing Intro",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 45,
+  "skill_name": "NLP"
+},
+{
+  "title": "MLOps Introduction",
+  "difficulty": "advanced",
+  "duration_hours": 22,
+  "price": 60,
+  "skill_name": "MLOps"
+},
+{
+  "title": "React Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 34,
+  "skill_name": "React"
+},
+{
+  "title": "TypeScript Essentials",
+  "difficulty": "intermediate",
+  "duration_hours": 14,
+  "price": 30,
+  "skill_name": "TypeScript"
+},
+{
+  "title": "Node.js Backend Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 40,
+  "skill_name": "Node.js"
+},
+{
+  "title": "Django Web Development",
+  "difficulty": "intermediate",
+  "duration_hours": 20,
+  "price": 42,
+  "skill_name": "Django"
+},
+{
+  "title": "AWS Cloud Practitioner Basics",
+  "difficulty": "beginner",
+  "duration_hours": 14,
+  "price": 28,
+  "skill_name": "AWS"
+},
+{
+  "title": "Kubernetes Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 38,
+  "skill_name": "Kubernetes"
+},
+{
+  "title": "CI/CD Pipeline Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 12,
+  "price": 30,
+  "skill_name": "CI/CD"
+},
+{
+  "title": "Security Monitoring Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 14,
+  "price": 32,
+  "skill_name": "Security Monitoring"
+},
+{
+  "title": "Incident Response Intro",
+  "difficulty": "intermediate",
+  "duration_hours": 12,
+  "price": 31,
+  "skill_name": "Incident Response"
+},
+{
+  "title": "Cryptography Basics",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 20,
+  "skill_name": "Cryptography"
+},
+{
+  "title": "Product Management Basics",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 22,
+  "skill_name": "Product Management"
+},
+{
+  "title": "Product Strategy Intro",
+  "difficulty": "intermediate",
+  "duration_hours": 13,
+  "price": 33,
+  "skill_name": "Product Strategy"
+},
+{
+  "title": "Product Analytics Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 12,
+  "price": 29,
+  "skill_name": "Product Analytics"
+},
+{
+  "title": "Roadmap Planning for Products",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 16,
+  "skill_name": "Roadmap Planning"
+},
+{
+  "title": "Electronics Fundamentals",
+  "difficulty": "beginner",
+  "duration_hours": 14,
+  "price": 20,
+  "skill_name": "Electronics"
+},
+{
+  "title": "Embedded Systems Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 20,
+  "price": 40,
+  "skill_name": "Embedded Systems"
+},
+{
+  "title": "Computer Architecture Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 36,
+  "skill_name": "Computer Architecture"
+},
+{
+  "title": "FPGA Design Intro",
+  "difficulty": "intermediate",
+  "duration_hours": 22,
+  "price": 48,
+  "skill_name": "FPGA"
+},
+{
+  "title": "Signal Processing Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 34,
+  "skill_name": "Signal Processing"
 }
 ]

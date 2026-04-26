@@ -2,7 +2,7 @@
 
 Tai yra objektinio programavimo kursinis darbas. Projekte kuriama paprasta kursų rekomendavimo sistema, kuri pagal vartotojo įvestą informaciją pasiūlo kelis tinkamiausius kursus.
 
-Tai yra OOP principais paremtas prototipas, kuriame naudojamos klasės, objektai, failų nuskaitymas, profilio išsaugojimas ir kelios rekomendavimo strategijos. Šiuo metu yra ribotas kiekis data apie profesijas ar apie kursus, todėl galima bandyti tokias profesijas kaip Project management ar Data scientist ir keletas kitų.
+Tai yra OOP principais paremtas prototipas, kuriame naudojamos klasės, objektai, failų nuskaitymas, profilio išsaugojimas ir kelios rekomendavimo strategijos. Šiuo metu yra ribotas kiekis data apie profesijas ar apie kursus, todėl galima bandyti tokias profesijas kaip Project management ar Data scientist ir keletas kitų norint išbandyti veikimą.
 
 ## Kaip paleisti
 
@@ -40,6 +40,8 @@ Yra dvi pagrindinės strategijos:
 - `SkillGapStrategy` – bando rasti, kokių įgūdžių vartotojui trūksta pagal pasirinktą rolę, ir rekomenduoja kursus tiems trūkstamiems įgūdžiams.
 
 Pavyzdžiui, jei vartotojas nori tapti `data scientist`, bet jau moka `Python`, tai `SkillGapStrategy` labiau rekomenduos `SQL`, `Statistics`, `Machine Learning` ar panašius kursus.
+
+Verta pabandyti įvesti profesiją Project manager, low budget, skill: technical writting, study time N, level beginner. Paprastai viena rekomendacija susitelks į bendrus šios profesijos kursus, o kita sužinojus kad jau moki technical writting bandys rekomenduoti visa kita ko dar nesupranti.
 
 ## OOP principai
 

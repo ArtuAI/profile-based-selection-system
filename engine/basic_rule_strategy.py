@@ -26,7 +26,6 @@ class BasicRuleStrategy(RecommendationStrategy):
             if role in target_role:
                 wanted_skills = role_to_skills[role]
 
-        # If no role was found, try to use the text itself as skill keyword
         if len(wanted_skills) == 0:
             wanted_skills.append(profile._target_role)
 
