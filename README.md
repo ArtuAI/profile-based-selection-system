@@ -1,16 +1,16 @@
 # OOP Coursework – Course Recommendation System
 
-Tai yra mano objektinio programavimo kursinis darbas. Projekte kuriama paprasta kursų rekomendavimo sistema, kuri pagal vartotojo įvestą informaciją pasiūlo kelis tinkamiausius kursus.
+Tai yra objektinio programavimo kursinis darbas. Projekte kuriama paprasta kursų rekomendavimo sistema, kuri pagal vartotojo įvestą informaciją pasiūlo kelis tinkamiausius kursus.
 
-Programa nėra tikra AI sistema. Tai yra OOP principais paremtas prototipas, kuriame naudojamos klasės, objektai, failų nuskaitymas, profilio išsaugojimas ir kelios rekomendavimo strategijos.
+Tai yra OOP principais paremtas prototipas, kuriame naudojamos klasės, objektai, failų nuskaitymas, profilio išsaugojimas ir kelios rekomendavimo strategijos. Šiuo metu yra ribotas kiekis data apie profesijas ar apie kursus, todėl galima bandyti tokias profesijas kaip Project management ar Data scientist ir keletas kitų.
 
 ## Kaip paleisti
 
 Projektą galima paleisti iš pagrindinio aplankalo:
 
-```bash
+bash naudojant kodą
 python main.py
-```
+
  
 Programa terminale paprašo įvesti:
 - norimą rolę, pvz. `data scientist`, `web developer`, `project manager`
@@ -45,14 +45,13 @@ Pavyzdžiui, jei vartotojas nori tapti `data scientist`, bet jau moka `Python`, 
 
 Projekte naudojami keli objektinio programavimo principai:
 
-- **Inkapsuliacija** – klasėse naudojami atributai su `_`, pvz. `_title`, `_price`, `_current_skills`.
-- **Paveldėjimas** – `BasicRuleStrategy` ir `SkillGapStrategy` paveldi iš `RecommendationStrategy`.
-- **Polimorfizmas** – abi strategijos turi metodą `generate_recommendations()`, bet veikia skirtingai.
-- **Kompozicija / agregacija** – `LearningProfile` turi sąrašą `Skill` objektų.
+- Inkapsuliacija – pvz. `_title`, `_price`, `_current_skills`.
+- Paveldėjimas – `BasicRuleStrategy` ir `SkillGapStrategy` paveldi iš `RecommendationStrategy`.
+- Polimorfizmas – abi strategijos turi metodą `generate_recommendations()`, bet veikia skirtingai.
 
 ## Design pattern
 
-Projekte naudojamas **Strategy design pattern**.
+Projekte naudojamas Strategy design pattern
 
 `RecommendationEngine` pats nežino, kaip tiksliai skaičiuoti rekomendacijas. Jis gauna pasirinktą strategiją ir naudoja jos metodą `generate_recommendations()`.
 
@@ -77,12 +76,13 @@ Projekte yra keli paprasti `unittest` testai. Jie tikrina:
 
 Testus galima paleisti:
 
-```bash
+bash
 python -m unittest discover
-```
+
 
 ## Rezultatas
 
 Gavosi paprasta terminalinė kursų rekomendavimo sistema. Ji leidžia sukurti vartotojo profilį, išsaugoti jį į failą, užkrauti kursų duomenis ir pateikti rekomendacijas pagal pasirinktą strategiją.
 
 Sistema dar nėra tobula, bet ji parodo pagrindinę idėją ir objektinio programavimo principų naudojimą.
+Galima bus kurti sudėtingesnį projektą pagal panašią rekomendavimo idėją.
