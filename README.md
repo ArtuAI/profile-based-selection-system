@@ -41,7 +41,7 @@ Yra dvi pagrindinės strategijos:
 
 Pavyzdžiui, jei vartotojas nori tapti `data scientist`, bet jau moka `Python`, tai `SkillGapStrategy` labiau rekomenduos `SQL`, `Statistics`, `Machine Learning` ar panašius kursus.
 
-Verta pabandyti įvesti profesiją Project manager, low budget, skill: technical writting, study time N, level beginner. Paprastai viena rekomendacija susitelks į bendrus šios profesijos kursus, o kita sužinojus kad jau moki technical writting bandys rekomenduoti visa kita ko dar nesupranti.
+Verta pabandyti įvesti profesiją Project manager, low budget, skill: technical writting, study time 20, level beginner. Paprastai viena rekomendacija susitelks į bendrus šios profesijos kursus, o kita sužinojus kad jau moki management bandys rekomenduoti visa kita ko dar nesupranti.
 
 ## OOP principai
 
