@@ -440,5 +440,180 @@
   "duration_hours": 16,
   "price": 34,
   "skill_name": "Signal Processing"
+},
+{
+  "title": "Advanced SQL Queries",
+  "difficulty": "intermediate",
+  "duration_hours": 15,
+  "price": 30,
+  "skill_name": "SQL"
+},
+{
+  "title": "Applied Statistics for Data",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 34,
+  "skill_name": "Statistics"
+},
+{
+  "title": "Data Storytelling Basics",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 16,
+  "skill_name": "Data Visualization"
+},
+{
+  "title": "Supervised Learning Practice",
+  "difficulty": "intermediate",
+  "duration_hours": 17,
+  "price": 38,
+  "skill_name": "Machine Learning"
+},
+{
+  "title": "Neural Networks Practice",
+  "difficulty": "advanced",
+  "duration_hours": 24,
+  "price": 62,
+  "skill_name": "Deep Learning"
+},
+{
+  "title": "Flask Web App Basics",
+  "difficulty": "beginner",
+  "duration_hours": 12,
+  "price": 24,
+  "skill_name": "Backend Development"
+},
+{
+  "title": "API Testing with Postman",
+  "difficulty": "beginner",
+  "duration_hours": 7,
+  "price": 14,
+  "skill_name": "APIs"
+},
+{
+  "title": "Responsive Web Design",
+  "difficulty": "beginner",
+  "duration_hours": 9,
+  "price": 18,
+  "skill_name": "Frontend Development"
+},
+{
+  "title": "JavaScript DOM Practice",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 20,
+  "skill_name": "JavaScript"
+},
+{
+  "title": "SQL Database Practice",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 18,
+  "skill_name": "Databases"
+},
+{
+  "title": "Linux Command Line Practice",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 12,
+  "skill_name": "Linux"
+},
+{
+  "title": "Docker Compose Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 10,
+  "price": 25,
+  "skill_name": "Docker"
+},
+{
+  "title": "Cloud Deployment Practice",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 36,
+  "skill_name": "Cloud Computing"
+},
+{
+  "title": "Network Fundamentals",
+  "difficulty": "beginner",
+  "duration_hours": 12,
+  "price": 18,
+  "skill_name": "Network Security"
+},
+{
+  "title": "Web Security Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 14,
+  "price": 32,
+  "skill_name": "Cybersecurity"
+},
+{
+  "title": "Penetration Testing Practice",
+  "difficulty": "advanced",
+  "duration_hours": 22,
+  "price": 55,
+  "skill_name": "Ethical Hacking"
+},
+{
+  "title": "User Research Interviews",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 15,
+  "skill_name": "UX Research"
+},
+{
+  "title": "Figma UI Components",
+  "difficulty": "beginner",
+  "duration_hours": 9,
+  "price": 18,
+  "skill_name": "UI Design"
+},
+{
+  "title": "Agile Team Communication",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 15,
+  "skill_name": "Project Management"
+},
+{
+  "title": "Product Requirements Writing",
+  "difficulty": "beginner",
+  "duration_hours": 9,
+  "price": 17,
+  "skill_name": "Product Management"
+},
+{
+  "title": "Business Requirements Documentation",
+  "difficulty": "beginner",
+  "duration_hours": 10,
+  "price": 18,
+  "skill_name": "Business Analysis"
+},
+{
+  "title": "Technical Documentation Practice",
+  "difficulty": "beginner",
+  "duration_hours": 8,
+  "price": 14,
+  "skill_name": "Technical Writing"
+},
+{
+  "title": "Microcontroller Programming Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 18,
+  "price": 38,
+  "skill_name": "Embedded Systems"
+},
+{
+  "title": "Digital Logic Fundamentals",
+  "difficulty": "beginner",
+  "duration_hours": 12,
+  "price": 22,
+  "skill_name": "Electronics"
+},
+{
+  "title": "VHDL Basics",
+  "difficulty": "intermediate",
+  "duration_hours": 16,
+  "price": 35,
+  "skill_name": "FPGA"
 }
 ]

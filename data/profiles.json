@@ -1,11 +1,11 @@
 {
     "target_role": "project manager",
     "budget_level": "low",
-    "weekly_hours": 22,
+    "weekly_hours": 20,
     "current_skills": [
         {
-            "name": "project management",
-            "level": "low"
+            "name": "management",
+            "level": "beginner"
         }
     ]
 }
