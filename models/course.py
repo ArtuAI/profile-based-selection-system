@@ -18,4 +18,3 @@ class Course:
             return True
         else:
             return False
-    

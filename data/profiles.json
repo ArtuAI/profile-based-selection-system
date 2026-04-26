@@ -1,7 +1,7 @@
 {
-    "target_role": "project manager",
+    "target_role": "project management",
     "budget_level": "low",
-    "weekly_hours": 20,
+    "weekly_hours": 10,
     "current_skills": [
         {
             "name": "technical writting",
