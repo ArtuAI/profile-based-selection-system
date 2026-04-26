@@ -1,0 +1,11 @@
+{
+    "target_role": "Data Scientist",
+    "budget_level": "low",
+    "weekly_hours": 10,
+    "current_skills": [
+        {
+            "name": "Python",
+            "level": "beginner"
+        }
+    ]
+}
