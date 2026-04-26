@@ -11,7 +11,7 @@ Projektą galima paleisti iš pagrindinio aplankalo:
 ```bash
 python main.py
 ```
-
+ 
 Programa terminale paprašo įvesti:
 - norimą rolę, pvz. `data scientist`, `web developer`, `project manager`
 - biudžeto lygį
